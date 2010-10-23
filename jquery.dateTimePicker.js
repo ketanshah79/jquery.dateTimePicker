@@ -27,8 +27,8 @@ var DateTimePicker = {
     }
   },
   dateRegExp: /^(\d{1,2})\/(\d{1,2})\/(\d{4})$/,
-  timeRegExp: /^(\d{1,2}):(\d{2}) ([AP]M)$/,
-  dateTimeRegExp: /^(\d{1,2})\/(\d{2})\/(\d{4}) at (\d{1,2}):(\d{2}) ([AP]M)$/
+  timeRegExp: /^(\d{1,2}):(\d{2}) ([A|P]M)$/,
+  dateTimeRegExp: /^(\d{1,2})\/(\d{2})\/(\d{4}) at (\d{1,2}):(\d{2}) ([A|P]M)$/
 };
 
 jQuery.widget("ui.dateTimePicker", {
